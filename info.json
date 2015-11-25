@@ -1,10 +1,10 @@
 {
   "name": "DoubleFurnace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Double Furnace",
   "author": "raid",
   "contact": "mod@hackmate.de",
-  "homepage": "",
+  "homepage": "https://github.com/r41d/DoubleFurnace",
   "description": "Mod that adds a Double Furnace to Factorio. A double furnace smelts iron ore directly to steel plates."
 }
 
