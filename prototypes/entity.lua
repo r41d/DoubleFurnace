@@ -25,7 +25,7 @@ data:extend({
       module_info_icon_shift = {0, 0.8}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"double-smelting"},
+    crafting_categories = {"smelting", "double-smelting"},
     result_inventory_size = 1,
     crafting_speed = 1,
     energy_usage = "300kW", -- electric furnace = 180kW

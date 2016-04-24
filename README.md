@@ -12,6 +12,9 @@ You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion ne
 
 # Changelog
 
+## 0.1.3
+- Double Furnace can now also perform normal smelting
+
 ## 0.1.1
 - Fixed a bug: double-iron recipe wasn't enabled by default and wasn't granted by the double-smelting-tech research.
 - Improved locale strings
