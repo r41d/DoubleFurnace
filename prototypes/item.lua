@@ -1,6 +1,6 @@
 data:extend({
 
-  -- vorlage war electric-furnace aus data/base/prototypes/item/item.lua
+  -- template was electric-furnace from data/base/prototypes/item/item.lua
   {
     type = "item",
     name = "double-furnace",

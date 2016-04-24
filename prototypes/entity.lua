@@ -27,14 +27,14 @@ data:extend({
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting", "double-smelting"},
     result_inventory_size = 1,
-    crafting_speed = 1,
+    crafting_speed = 2,
     energy_usage = "300kW", -- electric furnace = 180kW
     source_inventory_size = 1,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.008 -- electric = 0.005
+      emissions = 0.012 -- electric = 0.005
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =

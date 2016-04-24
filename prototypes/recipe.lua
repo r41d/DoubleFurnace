@@ -29,7 +29,9 @@ data:extend({
     name = "double-iron",
     category = "double-smelting",
     enabled = true,
-    energy_required = 25, -- 5*ore + 1*steel = 5*3.5+17.5=35
+    -- 5*ore + 1*steel = 5*3.5+17.5=35
+    -- if working in parallel -> 35/2 = 17.5
+    energy_required = 18,
     ingredients = {{"iron-ore", 5}},
     result = "steel-plate"
   }
