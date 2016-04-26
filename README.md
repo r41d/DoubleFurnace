@@ -13,7 +13,6 @@ You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion ne
 # Changelog
 
 ## 0.1.3
-- Double Furnace can now also perform normal smelting
 - Perform some balancing
 
 ## 0.1.1
