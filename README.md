@@ -9,6 +9,8 @@ Download the zip from GitHub and unzip it in your Factorio mods folder.
 The unpacked folder will most probably have the name "DoubleFurnace-master".
 You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion needs to be replaced by the version found in info.json
 
+# License
+GNU GPLv3
 
 # Changelog
 
@@ -25,3 +27,4 @@ You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion ne
 
 ## 0.1.0
 - First version
+
