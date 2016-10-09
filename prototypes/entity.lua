@@ -41,7 +41,7 @@ data:extend({
     {
       sound =
       {
-        filename = "__DoubleFurnace__/sound/double-furnace.ogg",
+        filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
       apparent_volume = 1.5
@@ -73,7 +73,7 @@ data:extend({
       {
         animation =
         {
-          filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-propeller-1.png",
+          filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-1.png",
           priority = "high",
           width = 19,
           height = 13,
@@ -85,7 +85,7 @@ data:extend({
       {
         animation =
         {
-          filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-propeller-2.png",
+          filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-2.png",
           priority = "high",
           width = 12,
           height = 9,
