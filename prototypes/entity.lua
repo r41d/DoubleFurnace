@@ -10,8 +10,7 @@ data:extend({
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     light = {intensity = 1, size = 10},
-    resistances =
-    {
+    resistances = {
       {
         type = "fire",
         percent = 80
@@ -19,8 +18,7 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
+    module_specification = {
       module_slots = 2,
       module_info_icon_shift = {0, 0.8}
     },
@@ -30,24 +28,20 @@ data:extend({
     crafting_speed = 2,
     energy_usage = "300kW", -- electric furnace = 180kW
     source_inventory_size = 1,
-    energy_source =
-    {
+    energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
       emissions = 0.012 -- electric = 0.005
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_sound =
-    {
-      sound =
-      {
+    working_sound = {
+      sound = {
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
       apparent_volume = 1.5
     },
-    animation =
-    {
+    animation = {
       filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-base.png",
       priority = "high",
       width = 129,
@@ -55,11 +49,9 @@ data:extend({
       frame_count = 1,
       shift = {0.421875, 0}
     },
-    working_visualisations =
-    {
+    working_visualisations = {
       {
-        animation =
-        {
+        animation = {
           filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-heater.png",
           priority = "high",
           width = 25,
@@ -68,11 +60,14 @@ data:extend({
           animation_speed = 0.5,
           shift = {0.015625, 0.890625}
         },
-        light = {intensity = 0.4, size = 6, shift = {0.0, 1.0}}
+        light = {
+          intensity = 0.4,
+          size = 6,
+          shift = {0.0, 1.0}
+        }
       },
       {
-        animation =
-        {
+        animation = {
           filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-1.png",
           priority = "high",
           width = 19,
@@ -83,8 +78,7 @@ data:extend({
         }
       },
       {
-        animation =
-        {
+        animation = {
           filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-2.png",
           priority = "high",
           width = 12,
@@ -98,5 +92,5 @@ data:extend({
     fast_replaceable_group = "furnace"
   }
 
-
 })
+

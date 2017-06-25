@@ -1,6 +1,6 @@
 data:extend({
 
-  -- recipe for making a double furnace.
+  -- Recipe for making a double furnace.
   -- This is unlocked by researching double-smelting-tech
   {
     type = "recipe",
@@ -15,6 +15,7 @@ data:extend({
     enabled = false
   },
 
+  -- Add a new recipe category for double smelting
   {
     type = "recipe-category",
     name = "double-smelting"
@@ -29,9 +30,10 @@ data:extend({
     name = "double-iron",
     category = "double-smelting",
     enabled = true,
+    -- "energy_required" is actually the time in seconds
     -- 5*ore + 1*steel = 5*3.5+17.5=35
     -- if working in parallel -> 35/2 = 17.5
-    energy_required = 18,
+    energy_required = 16,
     ingredients = {{"iron-ore", 5}},
     result = "steel-plate"
   }

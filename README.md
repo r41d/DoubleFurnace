@@ -14,6 +14,11 @@ GNU GPLv3
 
 # Changelog
 
+## 0.1.7
+- Update to Factorio 0.15
+- Small buff
+- Fixed locales
+
 ## 0.1.6
 - Update to Factorio 0.14
 - Remove redundant graphics

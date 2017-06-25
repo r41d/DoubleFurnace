@@ -1,27 +1,27 @@
 data:extend({
+
   {
-      type = "technology",
-      name = "double-smelting-tech",
-      icon = "__DoubleFurnace__/graphics/technology/double-smelting-tech64.png",
-      effects =
+    type = "technology",
+    name = "double-smelting-tech",
+    icon = "__DoubleFurnace__/graphics/technology/double-smelting-tech64.png", -- 128 pixel graphic doesn't get displayed correctly in 0.15.23 :(
+    effects = {
       {
-        {
-            type = "unlock-recipe",
-            recipe = "double-furnace"
-        }
+        type = "unlock-recipe",
+        recipe = "double-furnace"
+      }
+    },
+    prerequisites = {"advanced-material-processing-2"},
+    unit = {
+      count = 100,
+      ingredients = {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
       },
-      prerequisites = {"advanced-material-processing-2"},
-      unit =
-      {
-        count = 100,
-        ingredients =
-        {
-          {"science-pack-1", 1},
-          {"science-pack-2", 1},
-          {"science-pack-3", 1},
-        },
-        time = 30
-      },
-      order = "c-c-b-a"
+      time = 30
+    },
+    order = "c-c-b-a"
   }
+
 })
+
