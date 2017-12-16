@@ -14,6 +14,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.1.9
+- Reduced pollution (still higher than original Electric Furnace)
+
 ## 0.1.8
 - Update to Factorio 0.16
 - Added High Resolution graphics
