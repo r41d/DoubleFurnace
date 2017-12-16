@@ -3,7 +3,8 @@ data:extend({
   {
     type = "technology",
     name = "double-smelting-tech",
-    icon = "__DoubleFurnace__/graphics/technology/double-smelting-tech64.png", -- 128 pixel graphic doesn't get displayed correctly in 0.15.23 :(
+    icon = "__DoubleFurnace__/graphics/technology/double-smelting-tech.png",
+    icon_size = 128,
     effects = {
       {
         type = "unlock-recipe",

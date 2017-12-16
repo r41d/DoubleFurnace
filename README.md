@@ -14,6 +14,10 @@ GNU GPLv3
 
 # Changelog
 
+## 0.1.8
+- Update to Factorio 0.16
+- Added High Resolution graphics
+
 ## 0.1.7
 - Update to Factorio 0.15
 - Small buff
@@ -30,10 +34,9 @@ GNU GPLv3
 - Perform some balancing
 
 ## 0.1.1
-- Fixed a bug: double-iron recipe wasn't enabled by default and wasn't granted by the double-smelting-tech research.
+- Fixed a bug: double-iron recipe wasn't enabled by default
 - Improved locale strings
 - Added German localization
 
 ## 0.1.0
 - First version
-
