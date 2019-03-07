@@ -15,13 +15,13 @@ data:extend({
     unit = {
       count = 100,
       ingredients = {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
+        {"automation-science-pack", 1}, -- the old "science-pack-1"
+        {"logistic-science-pack", 1}, -- the old "science-pack-2"
+        {"production-science-pack", 1}, -- this just makes sense for a furnace
       },
       time = 30
     },
-    order = "c-c-b-a"
+    order = "c-c-b-a" -- advanced-material-processing-2 has "c-c-b", so this should be alright
   }
 
 })

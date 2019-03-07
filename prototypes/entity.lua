@@ -36,12 +36,12 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound = {
       sound = {
-        filename = "__base__/sound/electric-furnace.ogg",
-        volume = 0.7
+        filename = "__base__/sound/electric-furnace.ogg", -- same sound
+        volume = 0.8 -- but louder ;)
       },
       apparent_volume = 1.5
     },
-    animation = {
+    animation = { -- pretty much the same as electric-furnace, just other graphics
       layers = {
         {
           filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-base.png",
@@ -81,7 +81,7 @@ data:extend({
         }
       }
     },
-    working_visualisations = {
+    working_visualisations = { -- pretty much the same as electric-furnace, just other graphics
       {
         animation = {
           filename = "__DoubleFurnace__/graphics/entity/double-furnace/double-furnace-heater.png",
