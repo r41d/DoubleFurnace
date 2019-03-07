@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.2.1
+- Include thumbnail.png
+
 ## 0.2.0
 - Update to Factorio 0.17
 
