@@ -7,7 +7,7 @@ data:extend({
     icon = "__DoubleFurnace__/graphics/icons/double-steel-furnace.png",
     icon_size = 32,
     subgroup = "smelting-machine",
-    order = "b[double-steel-furnace]",
+    order = "c[double-steel-furnace]",
     place_result = "double-steel-furnace",
     stack_size = 50
   },
