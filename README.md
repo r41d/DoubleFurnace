@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.4.0
+- Update to Factorio 0.18
+
 ## 0.3.0
 Introduce double-steel-furnace and rename double-furnace to double-electric-furnace.
 
