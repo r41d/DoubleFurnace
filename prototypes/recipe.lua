@@ -1,17 +1,30 @@
 data:extend({
 
-  -- Recipe for making a double furnace.
+  -- TODO: recipe for making a double steel furnace
+  {
+    type = "recipe",
+    name = "double-steel-furnace",
+    ingredients = {
+      {"steel-plate", 12},
+      {"stone-brick", 20}
+    },
+    result = "double-steel-furnace",
+    energy_required = 6,
+    enabled = false
+  },
+
+  -- Recipe for making a double electric furnace.
   -- This is unlocked by researching double-smelting-tech
   {
     type = "recipe",
-    name = "double-furnace",
+    name = "double-electric-furnace",
     ingredients = {
-      {"steel-plate", 15},
-      {"advanced-circuit", 5},
-      {"stone-brick", 10}
+      {"steel-plate", 20},
+      {"advanced-circuit", 10},
+      {"stone-brick", 20}
     },
-    result = "double-furnace",
-    energy_required = 5,
+    result = "double-electric-furnace",
+    energy_required = 10,
     enabled = false
   },
 

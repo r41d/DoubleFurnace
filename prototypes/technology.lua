@@ -8,7 +8,11 @@ data:extend({
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "double-furnace"
+        recipe = "double-steel-furnace"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "double-electric-furnace"
       }
     },
     prerequisites = {"advanced-material-processing-2"},
@@ -25,4 +29,3 @@ data:extend({
   }
 
 })
-

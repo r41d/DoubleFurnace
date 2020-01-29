@@ -2,7 +2,7 @@
 -- The double-smelting-tech technology did not unlock the
 -- double-iron recipe, which is used by the double-furnace.
 -- This recipe is now enabled from the beginning,
--- but only a double-furnace can execute it.
+-- but only a furnace which can perform double-smelting can execute it.
 -- However: enable the double-iron recipe explicitly here.
 -- (Plus: this way i wrote my first migration script :P)
 for i, force in pairs(game.forces) do 

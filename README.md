@@ -1,11 +1,11 @@
 # DoubleFurnace
-Factorio Mod which adds a double furnace to the game.
+Factorio Mod which adds a double furnace to the game, both a variant for steel and electric.
 
-A double furnace looks similar to an electric furnace (but it's green)
+A double furnace looks similar to an steel/electric furnace (but it's green)
 and it can smelt iron ore directly to steel (but can't smelt anything else).
 
 # Installation from Factorio Mod Portal
-Please go to https://mods.factorio.com/mod/DoubleFurnace
+Please go to https://mods.factorio.com/mod/DoubleFurnace or download it ingame.
 
 # Installation from GitHub
 Download the zip from GitHub and unzip it in your Factorio mods folder.
@@ -16,6 +16,9 @@ You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion ne
 GNU GPLv3
 
 # Changelog
+
+## 0.3.0
+Introduce double-steel-furnace and rename double-furnace to double-electric-furnace.
 
 ## 0.2.1
 - Include thumbnail.png
