@@ -21,7 +21,6 @@ data:extend({
       ingredients = {
         {"automation-science-pack", 1}, -- the old "science-pack-1"
         {"logistic-science-pack", 1}, -- the old "science-pack-2"
-        {"production-science-pack", 1}, -- this just makes sense for a furnace
       },
       time = 30
     },
