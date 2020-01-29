@@ -17,6 +17,12 @@ GNU GPLv3
 
 # Changelog
 
+## 0.4.2
+Merge bob stuff from PiggyWhiskey
+
+## 0.4.1
+Remove production packs
+
 ## 0.4.0
 - Update to Factorio 0.18
 
