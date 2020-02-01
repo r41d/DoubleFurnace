@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.4.3
+Remove bobmod stuff for the moment because it's causing problems
+
 ## 0.4.2
 Merge bob stuff from PiggyWhiskey
 
