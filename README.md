@@ -8,8 +8,8 @@ and it can smelt iron ore directly to steel (but can't smelt anything else).
 Please go to https://mods.factorio.com/mod/DoubleFurnace or download it ingame.
 
 # Installation from GitHub
-Download the zip from GitHub and unzip it in your Factorio mods folder.
-The unpacked folder will most probably have the name "DoubleFurnace-master".
+Not recommended, but if you want to do it, download the zip from GitHub and unzip it in your Factorio mods folder.
+The unpacked folder will most likely have the name "DoubleFurnace-master".
 You need to rename it to "DoubleFurnace_#CurrentVersion" where CurrentVersion needs to be replaced by the version found in info.json
 
 # License
@@ -17,20 +17,23 @@ GNU GPLv3
 
 # Changelog
 
+## 0.4.4
+- Update to Factorio 1.1
+
 ## 0.4.3
-Remove bobmod stuff for the moment because it's causing problems
+- Remove bobmod stuff for the moment because it's causing problems
 
 ## 0.4.2
-Merge bob stuff from PiggyWhiskey
+- Merge bob stuff from PiggyWhiskey
 
 ## 0.4.1
-Remove production packs
+- Remove production packs
 
 ## 0.4.0
 - Update to Factorio 0.18
 
 ## 0.3.0
-Introduce double-steel-furnace and rename double-furnace to double-electric-furnace.
+- Introduce double-steel-furnace and rename double-furnace to double-electric-furnace.
 
 ## 0.2.1
 - Include thumbnail.png
