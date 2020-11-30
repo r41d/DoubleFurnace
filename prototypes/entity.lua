@@ -10,7 +10,7 @@ data:extend({
     icon = "__DoubleFurnace__/graphics/icons/double-steel-furnace.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.2, result = "steel-furnace"},
+    minable = {mining_time = 0.2, result = "double-steel-furnace"},
     max_health = 300,
     corpse = "medium-small-remnants",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -27,9 +27,9 @@ data:extend({
     },
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-0.8, -1}, {0.8, 1}},
-    crafting_categories = {"double-smelting"},
+    crafting_categories = {"double-smelting"}, -- this does the trick for double smelting
     result_inventory_size = 1,
-    energy_usage = "200kW", -- original steel furnace: 90kW
+    energy_usage = "180kW", -- original steel furnace: 90kW
     crafting_speed = 2,
     source_inventory_size = 1,
     energy_source =
@@ -209,7 +209,7 @@ data:extend({
     crafting_categories = {"double-smelting"}, -- this does the trick for double smelting
     result_inventory_size = 1,
     crafting_speed = 2,
-    energy_usage = "300kW", -- electric furnace = 180kW
+    energy_usage = "360kW", -- original electric furnace = 180kW
     source_inventory_size = 1,
     energy_source = {
       type = "electric",

@@ -17,6 +17,12 @@ GNU GPLv3
 
 # Changelog
 
+## 0.5.0
+- Separated the technologies for Double steel furnace and Double electric furnace
+- Add russian translation (thanks to KroshkaRoo)
+- Energy comsumption is now exactly twice the amount of the respective normal furnace
+- Migrate double-smelting-tech to double-smelting-tech-electric
+
 ## 0.4.4
 - Update to Factorio 1.1
 
