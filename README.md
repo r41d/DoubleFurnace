@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.5.1
+- Fix migrations
+
 ## 0.5.0
 - Separated the technologies for Double steel furnace and Double electric furnace
 - Add russian translation (thanks to KroshkaRoo)
