@@ -6,7 +6,7 @@
 -- However: enable the double-iron recipe explicitly here.
 -- (Plus: this way i wrote my first migration script :P)
 for i, force in pairs(game.forces) do 
-  if force.technologies["double-smelting-tech"].researched then
+  if force.technologies["double-smelting-tech-electric"].researched then
     force.recipes["double-iron"].enabled = true
   end
 end
