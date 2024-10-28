@@ -19,6 +19,8 @@ GNU GPLv3
 
 ## 0.6.0
 - Update to Factorio 2.0
+- Redo some (well, most...) of the graphics
+- Many adaptions in data model
 - Make double-electric-furnace research more expensive
 
 ## 0.5.1

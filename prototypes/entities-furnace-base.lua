@@ -1,17 +1,14 @@
-local sounds = require ("__base__.prototypes.entity.sounds")
-local hit_effects = require ("__base__.prototypes.entity.hit-effects")
-
 data:extend({
 
-  --------------------------
-  -- DOUBLE STEEL FURNACE --
-  --------------------------
+
+
+
   {
     type = "furnace",
-    name = "double-steel-furnace",
-    icon = "__DoubleFurnace__/graphics/icons/double-steel-furnace.png",
+    name = "steel-furnace",
+    icon = "__base__/graphics/icons/steel-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.2, result = "double-steel-furnace"},
+    minable = {mining_time = 0.2, result = "steel-furnace"},
     fast_replaceable_group = "furnace",
     max_health = 300,
     corpse = "steel-furnace-remnants",
@@ -40,9 +37,9 @@ data:extend({
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-0.8, -1}, {0.8, 1}},
     damaged_trigger_effect = hit_effects.entity(),
-    crafting_categories = {"double-smelting"}, -- this does the trick for double smelting
+    crafting_categories = {"smelting"},
     result_inventory_size = 1,
-    energy_usage = "180kW", -- original steel furnace: 90kW
+    energy_usage = "90kW",
     crafting_speed = 2,
     source_inventory_size = 1,
     energy_source =
@@ -50,7 +47,7 @@ data:extend({
       type = "burner",
       fuel_categories = {"chemical"},
       effectivity = 1,
-      emissions_per_minute = { pollution = 7 }, -- original steel furnace: 4
+      emissions_per_minute = { pollution = 4 },
       fuel_inventory_size = 1,
       light_flicker =
       {
@@ -76,7 +73,7 @@ data:extend({
         layers =
         {
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-steel-furnace/double-steel-furnace.png",
+            filename = "__base__/graphics/entity/steel-furnace/steel-furnace.png",
             priority = "high",
             width = 171,
             height = 174,
@@ -101,7 +98,7 @@ data:extend({
           effect = "flicker",
           animation =
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-steel-furnace/double-steel-furnace-fire.png",
+            filename = "__base__/graphics/entity/steel-furnace/steel-furnace-fire.png",
             priority = "high",
             line_length = 8,
             width = 57,
@@ -131,11 +128,11 @@ data:extend({
           effect = "flicker",
           animation =
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-steel-furnace/double-steel-furnace-working.png",
+            filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working.png",
             priority = "high",
             line_length = 1,
-            width = 130,
-            height = 149,
+            width = 128,
+            height = 150,
             draw_as_glow = true,
             shift = util.by_pixel(0, -5),
             blend_mode = "additive",
@@ -147,7 +144,7 @@ data:extend({
           effect = "flicker",
           animation =
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-steel-furnace/double-steel-furnace-ground-light.png",
+            filename = "__base__/graphics/entity/steel-furnace/steel-furnace-ground-light.png",
             priority = "high",
             line_length = 1,
             width = 152,
@@ -177,45 +174,18 @@ data:extend({
     }
   },
 
-  -----------------------------
-  -- DOUBLE ELECTRIC FURNACE --
-  -----------------------------
-  {
-    type = "corpse",
-    name = "double-electric-furnace-remnants",
-    icon = "__DoubleFurnace__/graphics/icons/double-electric-furnace.png",
-    flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
-    hidden_in_factoriopedia = true,
-    subgroup = "smelting-machine-remnants",
-    order = "a-a-a",
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    tile_width = 3,
-    tile_height = 3,
-    selectable_in_game = false,
-    time_before_removed = 60 * 60 * 15, -- 15 minutes
-    expires = false,
-    final_render_layer = "remnants",
-    remove_on_tile_placement = false,
-    animation =
-    {
-      filename = "__DoubleFurnace__/graphics/entity/double-electric-furnace/remnants/double-electric-furnace-remnants.png",
-      line_length = 1,
-      width = 454,
-      height = 448,
-      direction_count = 1,
-      shift = util.by_pixel(-3.25, 7.25),
-      scale = 0.5
-    }
-  },
+
+
+
   {
     type = "furnace",
-    name = "double-electric-furnace",
-    icon = "__DoubleFurnace__/graphics/icons/double-electric-furnace.png",
+    name = "electric-furnace",
+    icon = "__base__/graphics/icons/electric-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.2, result = "double-electric-furnace"},
+    minable = {mining_time = 0.2, result = "electric-furnace"},
     fast_replaceable_group = "furnace",
     max_health = 350,
-    corpse = "double-electric-furnace-remnants",
+    corpse = "electric-furnace-remnants",
     dying_explosion = "electric-furnace-explosion",
     resistances =
     {
@@ -234,16 +204,16 @@ data:extend({
       {inventory_index = defines.inventory.furnace_modules, shift = {0, 0.8}}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
-    crafting_categories = {"double-smelting"}, -- this does the trick for double smelting
+    crafting_categories = {"smelting"},
     result_inventory_size = 1,
     crafting_speed = 2,
-    energy_usage = "360kW", -- original electric-furnace = 180kW
+    energy_usage = "180kW",
     source_inventory_size = 1,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = { pollution = 2 } -- electric-furnace = 1
+      emissions_per_minute = { pollution = 1 }
     },
     impact_category = "metal",
     open_sound = sounds.electric_large_open,
@@ -269,7 +239,7 @@ data:extend({
         layers =
         {
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-electric-furnace/double-electric-furnace.png",
+            filename = "__base__/graphics/entity/electric-furnace/electric-furnace.png",
             priority = "high",
             width = 239,
             height = 219,
@@ -296,7 +266,7 @@ data:extend({
             layers =
             {
               {
-                filename = "__DoubleFurnace__/graphics/entity/double-electric-furnace/double-electric-furnace-heater.png",
+                filename = "__base__/graphics/entity/electric-furnace/electric-furnace-heater.png",
                 priority = "high",
                 width = 60,
                 height = 56,
@@ -307,7 +277,7 @@ data:extend({
                 scale = 0.5
               },
               {
-                filename = "__DoubleFurnace__/graphics/entity/double-electric-furnace/double-electric-furnace-light.png",
+                filename = "__base__/graphics/entity/electric-furnace/electric-furnace-light.png",
                 blend_mode = "additive",
                 width = 202,
                 height = 202,
@@ -323,7 +293,7 @@ data:extend({
           fadeout = true,
           animation =
           {
-            filename = "__DoubleFurnace__/graphics/entity/double-electric-furnace/double-electric-furnace-ground-light.png",
+            filename = "__base__/graphics/entity/electric-furnace/electric-furnace-ground-light.png",
             blend_mode = "additive",
             width = 166,
             height = 124,
@@ -375,7 +345,9 @@ data:extend({
         orientation_to_variation = false
       }
     }
-  }
+  },
+
+
 
 })
 
