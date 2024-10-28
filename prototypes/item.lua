@@ -1,6 +1,6 @@
 data:extend({
 
-  -- template was steel-furnace from data/base/prototypes/item/item.lua
+  -- template was steel-furnace from data/base/prototypes/item.lua
   {
     type = "item",
     name = "double-steel-furnace",
@@ -12,7 +12,7 @@ data:extend({
     stack_size = 50
   },
 
-  -- template was electric-furnace from data/base/prototypes/item/demo-item.lua
+  -- template was electric-furnace from data/base/prototypes/item.lua
   {
     type = "item",
     name = "double-electric-furnace",

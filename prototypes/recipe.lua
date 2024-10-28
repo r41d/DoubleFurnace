@@ -1,6 +1,7 @@
 data:extend({
 
-  -- TODO: recipe for making a double steel furnace
+  -- Recipe for making a double steel furnace.
+  -- This is unlocked by researching double-smelting-tech-steel
   {
     type = "recipe",
     name = "double-steel-furnace",
@@ -28,7 +29,8 @@ data:extend({
     enabled = false
   },
 
-  -- Add a new recipe category for double smelting
+  -- Add a new recipe category for double smelting.
+  -- This is used by the steel/electric double furnaces.
   {
     type = "recipe-category",
     name = "double-smelting"
@@ -54,3 +56,4 @@ data:extend({
   }
 
 })
+

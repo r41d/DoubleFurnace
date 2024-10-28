@@ -11,7 +11,9 @@ data:extend({
         recipe = "double-steel-furnace"
       },
     },
-    prerequisites = {"advanced-material-processing"},
+    prerequisites = {
+      "advanced-material-processing" -- normal steel-furnace
+    },
     unit = {
       count = 75, -- advanced-material-processing = 75
       ingredients = {
@@ -35,11 +37,11 @@ data:extend({
       }
     },
     prerequisites = {
-      "advanced-material-processing-2",
+      "advanced-material-processing-2", -- normal electric-furnace
       "double-smelting-tech-steel"
     },
     unit = {
-      count = 250, -- advanced-material-processing-2 = 250
+      count = 500, -- advanced-material-processing-2 = 250
       ingredients = {
         {"automation-science-pack", 1}, -- the old science pack 1
         {"logistic-science-pack", 1}, -- the old science pack 2

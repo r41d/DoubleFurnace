@@ -19,6 +19,7 @@ GNU GPLv3
 
 ## 0.6.0
 - Update to Factorio 2.0
+- Make double-electric-furnace research more expensive
 
 ## 0.5.1
 - Fix migrations
