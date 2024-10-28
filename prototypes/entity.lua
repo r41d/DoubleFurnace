@@ -3,7 +3,6 @@ data:extend({
   --------------------------
   -- DOUBLE STEEL FURNACE --
   --------------------------
-
   {
     type = "furnace",
     name = "double-steel-furnace",
@@ -35,9 +34,9 @@ data:extend({
     energy_source =
     {
       type = "burner",
-      fuel_category = "chemical",
+      fuel_categories = {"chemical"},
       effectivity = 1,
-      emissions_per_minute = 7, -- original steel furnace: 4
+      emissions_per_minute = { pollution = 7 }, -- original steel furnace: 4
       fuel_inventory_size = 1,
       smoke =
       {
@@ -182,7 +181,6 @@ data:extend({
   -----------------------------
   -- DOUBLE ELECTRIC FURNACE --
   -----------------------------
-
   {
     type = "furnace",
     name = "double-electric-furnace",

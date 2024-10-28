@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.0
+- Update to Factorio 2.0
+
 ## 0.5.1
 - Fix migrations
 

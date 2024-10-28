@@ -5,10 +5,10 @@ data:extend({
     type = "recipe",
     name = "double-steel-furnace",
     ingredients = {
-      {"steel-plate", 12},
-      {"stone-brick", 20}
+      {type = "item", name = "steel-plate", amount = 12},
+      {type = "item", name = "stone-brick", amount = 10},
     },
-    result = "double-steel-furnace",
+    results = {{type="item", name="double-steel-furnace", amount=1}},
     energy_required = 6,
     enabled = false
   },
@@ -19,11 +19,11 @@ data:extend({
     type = "recipe",
     name = "double-electric-furnace",
     ingredients = {
-      {"steel-plate", 20},
-      {"advanced-circuit", 10},
-      {"stone-brick", 20}
+      {type = "item", name = "steel-plate", amount = 20},
+      {type = "item", name = "advanced-circuit", amount = 10},
+      {type = "item", name = "stone-brick", amount = 20},
     },
-    result = "double-electric-furnace",
+    results = {{type="item", name="double-electric-furnace", amount=1}},
     energy_required = 10,
     enabled = false
   },
@@ -47,8 +47,10 @@ data:extend({
     -- 5*ore + 1*steel = 5*3.5+17.5=35
     -- if working in parallel -> 35/2 = 17.5
     energy_required = 16,
-    ingredients = {{"iron-ore", 5}},
-    result = "steel-plate"
+    ingredients = {
+      {type = "item", name = "iron-ore", amount = 5},
+    },
+    results = {{type="item", name="steel-plate", amount=1}},
   }
 
 })
