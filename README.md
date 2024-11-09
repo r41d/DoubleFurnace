@@ -22,6 +22,7 @@ GNU GPLv3
 - Redo some (well, most...) of the graphics
 - Many adaptions in data model
 - Make double-electric-furnace research more expensive
+- Change recipe: Double Furnaces (either type respectively) are now made from two normal ones
 - Remove very old migrations because the last update was 3 years ago and we had to change so much for Factorio 2.0, that I now consider these even older migrations unnecessary baggage
 
 ## 0.5.1
