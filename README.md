@@ -17,6 +17,10 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.1
+- Updated to Factorio 2.0.16
+- Fix item sounds due to changes
+
 ## 0.6.0
 - Update to Factorio 2.0
 - Redo some (well, most...) of the graphics
