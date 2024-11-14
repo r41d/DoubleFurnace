@@ -1,3 +1,5 @@
+local item_sounds = require("__base__.prototypes.item_sounds")
+
 data:extend({
 
   -- template was steel-furnace from data/base/prototypes/item.lua
