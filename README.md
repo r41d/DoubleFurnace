@@ -17,6 +17,9 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.2
+- Add in Recipe localization for Factoriopedia. (English Only)
+
 ## 0.6.1
 - Updated to Factorio 2.0.16
 - Fix item sounds due to changes
