@@ -17,6 +17,11 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.5
+
+- Updated to work with 2.1
+- Changed Double-iron recipe to unlock with first double furnace research
+- 
 ## 0.6.4
 - Add in config option to allow users to choose if Furnaces unlock with the standard furnace of the same type or via a separate research. Default setting is separate research.
 

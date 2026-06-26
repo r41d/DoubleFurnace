@@ -40,8 +40,8 @@ data:extend({
   {
     type = "recipe",
     name = "double-iron",
-    category = "double-smelting",
-    enabled = true,
+    categories = {"double-smelting"},
+    enabled = false,
     -- "energy_required" is actually the time in seconds
     -- 5*ore + 1*steel = 5*3.5+17.5=35
     -- if working in parallel -> 35/2 = 17.5

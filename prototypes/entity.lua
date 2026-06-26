@@ -229,10 +229,10 @@ data:extend({
     damaged_trigger_effect = hit_effects.entity(),
     module_slots = 2,
     icon_draw_specification = {shift = {0, -0.1}},
-    icons_positioning =
-    {
-      {inventory_index = defines.inventory.furnace_modules, shift = {0, 0.8}}
-    },
+    -- icons_positioning =
+    -- {
+      -- {inventory_index = defines.inventory.furnace_modules, shift = {0, 0.8}}
+    -- },
     allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
     crafting_categories = {"double-smelting"}, -- this does the trick for double smelting
     result_inventory_size = 1,
@@ -378,3 +378,4 @@ data:extend({
   }
 
 })
+
